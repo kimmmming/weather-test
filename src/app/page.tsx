@@ -170,6 +170,15 @@ export default function WeatherApp() {
             <CardDescription className="text-gray-600">
               探索世界各地的天气情况
             </CardDescription>
+            <div className="flex gap-2 justify-center mt-4">
+              <Button 
+                variant="outline" 
+                size="sm"
+                onClick={() => window.location.href = '/openweather'}
+              >
+                OpenWeatherMap 版本
+              </Button>
+            </div>
           </CardHeader>
 
           <CardContent className="space-y-6">
